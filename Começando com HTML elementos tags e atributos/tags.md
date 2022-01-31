@@ -1,0 +1,5 @@
+##
+
+Dentro do HTML, existe alguns termos que são muito usados, são eles as tags, os elementos e os atributos. No HTMl para conseguir marcar determinado texto, precisamos das TAGS, elas nada mais são do que letras que estão entre os símbolos de maior que (>) e menor que (<). As tags geralmente aparecem em pares, uma tag de abertura, e uma tag de fechamento (imagem1_tags).  A tag de abertura, como o nome já diz, determina o começo de um determinado conteúdo, para isso a forma de demonstrar que é uma abertura, é usando o símbolo de menor que, seguido pelo nome do elemento e finalizando com maior que (<a>). Após a tag de abertura (<a>) vem todo o conteúdo daquele elemento, quando o conteúdo terminar, encerra-se com a tag de fechamento, que é representada com o símbolo de menor que, seguido por uma barra, o nome do elemento, e finalizando com o maior que (</a>). Quando temos a tag de abertura e fechamento junto com o conteúdo, todo esse conjunto é denominado ELEMENTO.
+
+# 

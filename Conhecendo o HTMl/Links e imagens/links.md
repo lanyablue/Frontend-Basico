@@ -9,3 +9,7 @@ Supondo que temos um texto que tenha referencias em três partes, a primeira del
 Veja o exemplo pratico em Iniciando o projeto/index.html
 
 ##
+
+Para colocar uma imagem na página utilizaremos a tag img, com o atributo src. O atributo src funciona da mesma forma que o href dos links, e existem os endereços relativos e absolutos neste atributo também. É obrigatório o uso do atributo alt com o texto descritivo da imagem ainda dentro da tag img, caso a imagem não carregue por algum motivo, o texto descritivo aparecerá no lugar indicando sobre o que seria aquela imagem. E outro aspecto importante é que precisamos nos preocupar em fazer páginas web para pessoas com deficiência, utilizando a acessibilidade, pois essas pessoas utilizarão softwares de leitura de tela para navegarem, e através da descrição do alt, a pessoa é capaz de “ler” a imagem.
+
+##

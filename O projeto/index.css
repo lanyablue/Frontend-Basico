@@ -1,3 +1,71 @@
-h1 {
-    color: rgb(226, 153, 165);
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.dark {
+    background-color: rgb(240, 16, 139);
+    color: #eba8df;
+}
+
+.light {
+    background-color: #eba8df;
+    color: rgb(240, 16, 139);
+}
+
+section h3 {
+    font-size: 1.7em;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li a {
+    color: #f7d8f1;
+    font-weight: lighter;
+}
+
+
+.identity { 
+    background-color: rgb(243, 221, 225);
+    color: #FFF;
+}
+
+.identity h1 {
+    font-size: 2.5em;
+}
+
+.identity h2 {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.projects li {
+    background-color: #e166e6;
+}
+
+.projects li a {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.projects li p {
+    color: rgb(245, 188, 237)
+}
+
+#sobre p.bio {
+    color:#e166e6 ;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 14;
+}
+
+#sobre img {
+    width: 200px;
+}
+
+#contato li {
+    display: inline-block;
 }

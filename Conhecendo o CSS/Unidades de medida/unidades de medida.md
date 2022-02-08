@@ -1,0 +1,11 @@
+##
+
+Quando falamos em dar espaço para o conteúdo, uma coisa muito importante é falar de unidades de medida, existem dois tipos de unidades de medida, a mais simples de se começar a entender são as unidades absolutas, que são as fixas. O principal exemplo de unidade fixa é o pixel, imagine a tela do seu computador, ela é um quadrado bem grande, imagine recortando esse quadrado em quadrados menores e em cada quadrado menor recortando-o infinitamente até chegar na menor unidade possível. Essa unidade é denominada pixel, logo a nossa tela do computador é formada de vários pixelzinhos coladinhos um aos outros.
+
+Além disso pixel é uma unidade física, que sempre terá aquela medida fixa e nunca irá mudar, para dar um exemplo vamos supor que queremos deixar todos os parágrafos da página com o tamanho de fonte de  14 pixels.
+
+Outro tipo de unidades são as unidades relativas, elas são as mais utilizadas hoje em dia pois não são fixas, e dão maior flexibilidade para o layout, diferente das absolutas. Como o nome já sugere, elas são relativas, são relativas ao elemento pai, que é o elemento que está alinhado com o qual você está estilizando, que precisa ter uma medida definida. A mais comum é a % que é representada pelo símbolo porcento, como é uma unidade de medida relativa, logo a medida é definida com relação ao seu pai.  Então vamos ao exemplo O projeto / index.css
+
+A porcentagem é relativa aos tamanhos, temos outra unidade de medida que é relativa ao tamanho da fonte, é representada por ‘em’ que representa x vezes o tamanho fonte daquele contexto, existe uma outra bem parecida que referencia o tamanho da fonte padrão do documento, ou seja, ela não depende do pai, depende do documento, ela é representada por ‘rem’ que vem na combinação das palavras alt em, do mesmo ‘em’ citado anteriormente. Essas são outras unidades de medidas que possibilitam flexibilizar um pouco o layout, já que ela não é fixa e sim relativa a alguma coisa. As unidades de medidas ‘em’ e ‘rem’, veremos alguns exemplos ao longo do desenvolvimento
+
+##

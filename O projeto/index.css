@@ -17,8 +17,8 @@ body{
 }
 
 .container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 section{
@@ -29,6 +29,12 @@ section{
 section h3 {
     font-size: 1.7em;
     margin-bottom: 0.5em;
+}
+
+
+section img{
+    width: 100%;
+    max-width: 300px;
 }
 
 header {
@@ -64,6 +70,20 @@ header li a {
     font-weight: 200;
 }
 
+.projects-header{
+    float: left;
+    width: 30%;
+}
+
+.projects-header h3 {
+    margin-top: 1em;
+}
+
+.projects{
+    margin-left: 40%;
+
+}
+
 .projects li {
     background-color: #e166e6;
     padding: 1em;
@@ -90,12 +110,17 @@ header li a {
     margin: 1em;
 }
 
+#sobre p.bio, #sobre p.text{
+    width: 50%;
+}
+
 p {
     font-size: 14;
 }
 
 #sobre img {
     width: 200px;
+    float: right;
 }
 
 #contato li {

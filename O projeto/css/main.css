@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dark {
+    background-color: rgb(240, 16, 139);
+    color: #eba8df;
+}
+
+.light {
+    background-color: #eba8df;
+    color: rgb(240, 16, 139);
+}
+
+.container {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+
+header ul {
+    text-align: right;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+header li a {
+    color: #f7d8f1;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#contato li {
+    display: inline-block;
+}
+
+#contato li a {
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email {
+    background-image: url('../imagens/email.png');
+}
+
+#contato .twitter{
+    background-image: url('../imagens/twitter.png');
+}
+
+#contato .github{
+    background-image: url('../imagens/github.png');
+}
+
+#contato .facebook{
+    background-image: url('../imagens/facebook.png');
+}
+
+#contato .linkedin{
+    background-image: url('../imagens/linkedin.png');
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

@@ -6,6 +6,10 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .dark {
     background-color: rgb(240, 16, 139);
     color: #eba8df;
@@ -24,11 +28,13 @@ body{
 section{
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 section h3 {
     font-size: 1.7em;
     margin-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 
@@ -46,6 +52,10 @@ header {
     height: 3em;
 }
 
+header ul {
+    text-align: right;
+}
+
 header li {
     display: inline-block;
     margin-left: 3em;
@@ -54,6 +64,7 @@ header li {
 header li a {
     color: #f7d8f1;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 
 
@@ -101,6 +112,8 @@ header li a {
 .projects li p {
     color: rgb(245, 188, 237);
     margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
 }
 
 #sobre p.bio {
@@ -111,6 +124,8 @@ header li a {
 
 #sobre p.text {
     margin: 1em;
+    text-align: justify;
+    line-height: 1.4;
 }
 
 #sobre p.bio, #sobre p.text{
@@ -128,7 +143,34 @@ p {
 
 #contato li {
     display: inline-block;
+}
+
+#contato li a {
+    display: inline-block;
     margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email {
+    background-image: url('imagens/email.png');
+}
+
+#contato .twitter{
+    background-image: url('imagens/twitter.png');
+}
+
+#contato .github{
+    background-image: url('imagens/github.png');
+}
+
+#contato .facebook{
+    background-image: url('imagens/facebook.png');
+}
+
+#contato .linkedin{
+    background-image: url('imagens/linkedin.png');
 }
 
 footer {

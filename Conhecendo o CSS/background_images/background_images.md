@@ -1,0 +1,13 @@
+##
+
+Para substituirmos os links por imagens, poderíamos colocar várias tags img no html, mas sempre é preciso pensar em qual valor semântico este conteúdo terá. Quando colocamos uma tag img, aquela imagem realmente representa uma informação visual, mas nesse caso a imagem está representando visualmente o nome de uma rede social e o seu link, ou seja, a imagem não é realmente importante, o mais importante é o nome da rede social e o link. Neste caso deixaremos o texto no html, e colocaremos a imagem pelo css, que é responsável pelo visual. Para fazermos isso, basta que o html tenha um texto, e logo colocaremos um backgroung-image pelo css. 
+
+Começando definindo o tamanho desse elemento com base no tamanho da imagem, no caso a imagem é 48px. Fazendo isso o texto continuará sobrepondo a imagem, para isso existe uma propriedade chamada text-indent, nela você regula o recuo da primeira linha de um parágrafo, essa propriedade aceita valores maiores que zero, são eles que fazem a linha começar um pouco depois das outras linhas, ou menores que zero, que fazem a linha começar um pouco antes das outras. Então para sumir com o texto neste caso, podemos colocar um valor bem grande, só que se o texto tiver mais do que uma palavra, só a primeira palavra ficará fora da página e as próximas palavras voltarão para a página, logo colocamos um valor muito pequeno (-999), pois ele sumirá para antes, e mesmo que tenha algum texto, não terá problema pois ele colocará o texto bem antes na página. 
+
+E para definir essa imagem ícone de cada link, é necessário criar uma classe para cada link no html dentro da tag a, colocando essas classes podemos definir a imagem de cada uma delas diferentemente. Se colocarmos o background no li não substituiremos o link e o nome da rede social com uma imagem, substituiremos o item por uma imagem, logo ele perderá o efeito do link. Por isso é necessário o colocarmos na tag a e alterarmos no css de fato. Quando feito, cada um deles ficará inline, e todos seus links funcionarão perfeitamente, mas em blocos separados pois perderam seu li, seu li não tem mais o inline-block, logo para resolver isso colocamos no css que o contato no li também é display inline-block.
+
+##
+
+Portanto cuidado ao substituir suas imagens, pois dependendo do lugar, ele acabará perdendo as funções originais do elemento, no caso do link ele pode perder o link verdadeiro se  substituímos no pai dele, logo o link acaba não tendo o mesmo valor do que antes.
+ 
+##

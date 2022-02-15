@@ -11,23 +11,25 @@ section h3 {
 }
 
 
-section img{
+.imagem-projeto{
     width: 100%;
     max-width: 300px;
 }
 
 .identity { 
-    background-color: rgb(240, 16, 139);
+    background-color: rgba(219, 131, 159, 0.932);
     color: #FFF;
     padding: 10em 2em 7em;
 }
 
 .identity h1 {
+    font-family: 'Elsie Swash Caps', cursive;
     font-size: 2.5em;
     margin-bottom: 0.7em;
 }
 
 .identity h2 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 200;
 }
@@ -38,7 +40,12 @@ section img{
 }
 
 .projects-header h3 {
+    color: rgb(238, 27, 150);
     margin-top: 1em;
+    text-shadow: 0.2em 0.2em 0.2em rgb(219, 155, 190);
+}
+.projects-header p {
+    color: rgb(238, 27, 150);
 }
 
 .projects{
@@ -47,45 +54,35 @@ section img{
 }
 
 .projects li {
-    background-color: #e166e6;
+    background-color: rgba(212, 134, 159, 0.932);
     padding: 1em;
     margin-bottom: 2em;
 }
 
 .projects li a {
+    font-family: 'Elsie Swash Caps', cursive;
     color: #fff;
     font-size: 1.3em;
 }
 
 .projects li p {
-    color: rgb(245, 188, 237);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0.1em 0.1em 0.1em rgb(219, 155, 190);
+    color: rgb(241, 231, 240);
     margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
 }
 
-#sobre p.bio {
-    color:#e166e6 ;
-    font-size: 1.2em;
-    margin: 1em;
+
+.projects-header h3 {
+    text-shadow: 0.1em 0.1em 0.1em rgb(230, 175, 205);
 }
 
-#sobre p.text {
-    margin: 1em;
-    text-align: justify;
-    line-height: 1.4;
+.projects-header p {
+    text-shadow: 0.1em 0.1em 0.1em rgb(199, 128, 167);
 }
 
-#sobre p.bio, #sobre p.text{
-    width: 50%;
-}
 
-p {
-    font-size: 14;
-}
 
-#sobre img {
-    width: 200px;
-    float: right;
-}
 

@@ -39,7 +39,7 @@ Vamos então fazer um exemplo real, supondo que queremos fazer essas três coisa
 }
 
 Para isso, vamos criar um arquivo chamado index.css e nele colocar o selector, a propriedade e seu valor.
-Após fazer isso, para referenciar o arquivo de css no html colocamos a tag <link rel=”stylesheet” href=”index.css”>.  Essa tag link faz a ligação entre o arquivo html e o css, é como se o html conversasse com o arquivo css pegando tudo que tem dentro do arquivo css para ele usar na sua página. O atributo rel stylesheet serve para mostrar o tipo de relacionamento que os dois arquivos estão criando, no caso é do tipo folha de estilo. E o atributo href serve para mostrar em qual local ele encontrará o arquivo css.
+Após fazer isso, para referenciar o arquivo de css no html colocamos a tag (link rel=”stylesheet” href=”index.css”).  Essa tag link faz a ligação entre o arquivo html e o css, é como se o html conversasse com o arquivo css pegando tudo que tem dentro do arquivo css para ele usar na sua página. O atributo rel stylesheet serve para mostrar o tipo de relacionamento que os dois arquivos estão criando, no caso é do tipo folha de estilo. E o atributo href serve para mostrar em qual local ele encontrará o arquivo css.
 
 #
 

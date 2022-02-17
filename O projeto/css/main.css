@@ -50,9 +50,6 @@ header {
     height: 3em;
 }
 
-header ul {
-    text-align: right;
-}
 
 header li {
     display: inline-block;
@@ -68,6 +65,7 @@ header li a {
 }
 
  
+
 #sobre p.bio {
     font-family: 'Elsie Swash Caps', cursive;
     color:#fff;
@@ -103,6 +101,14 @@ p {
 
 #contato li {
     display: inline-block;
+}
+
+#contato h3 {
+    color: rgb(238, 27, 150);
+}
+
+#contato p {
+    color: rgb(238, 27, 150);
 }
 
 #contato li a {

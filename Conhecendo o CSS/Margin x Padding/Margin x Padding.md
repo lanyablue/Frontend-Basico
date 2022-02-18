@@ -5,6 +5,7 @@ Margin x Padding
 Agora pensando um pouco além do tamanho, é estranho termos uma página e o conteúdo colado um ao outro, geralmente colocamos um espaçamento entre eles, uma distância para dar um respiro, um layout no geral, para isso temos duas propriedades: margin, padding. As duas colocam esse espaçamento, então qual a diferença entre elas?
 
 Margin: Imagine que temos um bloco, um conteúdo, quando utilizarmos a propriedade margin acrescentamos um espaço para fora, externo ao elemento, ou seja, para fora dessa “caixinha” que é o conteúdo.
+
 Enquanto o Padding, acrescentamos um espaço interno ao elemento, ou seja, para dentro da “caixinha”.
 
 O que separa esses dois tipos de espaçamento é o border, que é o que determina o espaço do conteúdo, então para dentro é o pading e para fora o margin.

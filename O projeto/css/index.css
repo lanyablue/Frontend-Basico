@@ -46,11 +46,11 @@ section h3 {
 }
 .projects-header p {
     color: rgb(238, 27, 150);
+    text-shadow: 0.1em 0.1em 0.1em rgb(199, 128, 167);
 }
 
 .projects{
     margin-left: 40%;
-
 }
 
 .projects li {
@@ -64,24 +64,18 @@ section h3 {
     color: #fff;
     font-size: 1.3em;
 }
-
+    
 .projects li p {
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 0.1em 0.1em 0.1em rgb(219, 155, 190);
-    color: rgb(241, 231, 240);
+    color: #fff;
     margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
 }
 
 
-.projects-header h3 {
-    text-shadow: 0.1em 0.1em 0.1em rgb(230, 175, 205);
-}
 
-.projects-header p {
-    text-shadow: 0.1em 0.1em 0.1em rgb(199, 128, 167);
-}
+
 
 
 

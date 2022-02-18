@@ -63,7 +63,11 @@ header li a {
     margin-left: 1em;
 }
 
- 
+#sobre img {
+    margin-top: 1.7em;
+    width: 200px;
+    float: right;
+}
 
 #sobre p.bio {
     font-family: 'Elsie Swash Caps', cursive;
@@ -74,7 +78,7 @@ header li a {
 
 #sobre p.text {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(236, 228, 235);
+    color: #fff;
     margin: 1em;
     text-align: justify;
     line-height: 1.4;
@@ -88,26 +92,18 @@ p {
     font-size: 14;
 }
 
-#sobre img {
-    margin-top: 1.7em;
-    width: 200px;
-    float: right;
+#contato h3 {
+    color: rgb(238, 27, 150);
+    text-shadow: 0.1em 0.1em 0.1em rgb(199, 128, 167);
 }
 
-#contato {
+#contato p {
+    color: rgb(238, 27, 150);
     text-shadow: 0.1em 0.1em 0.1em rgb(199, 128, 167);
 }
 
 #contato li {
     display: inline-block;
-}
-
-#contato h3 {
-    color: rgb(238, 27, 150);
-}
-
-#contato p {
-    color: rgb(238, 27, 150);
 }
 
 #contato li a {

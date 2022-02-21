@@ -1,25 +1,8 @@
-
-
-
-section{
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-}
-
-section h4 {
-    font-size: 1em;
-    margin-bottom: 0.5em;
-}
-
-.container {
-    padding-left: 30%;
-    padding-right: 30%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&family=Montserrat:wght@300&display=swap');
 
 .titulo-do-blog {
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgba(219, 131, 159, 0.932);
+    background-color: #db839fee;
     color:#fff;
     padding: 4em 3em 3em;
     text-align: center;
@@ -28,31 +11,25 @@ section h4 {
 .titulo-do-blog h1 {
     font-size: 1.5em;
     padding-top: 1.3em;
-   
 }
 
-.projects li {
+.posts li {
     background-color: rgba(212, 134, 159, 0.932);
     padding: 1em;
     margin-bottom: 2em;
 }
 
-.projects li h1 {
+.posts li h1 {
     font-family: 'Elsie Swash Caps', cursive;
     font-size: large;
     color: #fff;
     line-height: 1.5;
 }
 
-.projects li p {
+.posts li p {
     font-family: 'Montserrat', sans-serif;
     color: rgb(247, 245, 246);
     margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
 }
-
-
-
-
-

@@ -1,15 +1,8 @@
-section{
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-}
-
 section h3 {
     font-size: 1.7em;
     margin-bottom: 0.5em;
     text-transform: uppercase;
 }
-
 
 .imagem-projeto{
     width: 100%;
@@ -29,7 +22,6 @@ section h3 {
 }
 
 .identity h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 200;
 }
@@ -66,7 +58,6 @@ section h3 {
 }
     
 .projects li p {
-    font-family: 'Montserrat', sans-serif;
     color: #fff;
     margin-top: 0.5em;
     text-align: justify;

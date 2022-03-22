@@ -70,7 +70,8 @@ header li a {
 }
 
 header li a:hover {
-    color: #fff    
+    color: #fff;
+    text-decoration: underline;
 }
 
 #sobre img {
@@ -127,20 +128,40 @@ p {
     background-image: url('../imagens/email.png');
 }
 
+#contato .email:hover {
+    transform: scale(1.2);
+}
+
 #contato .twitter{
     background-image: url('../imagens/twitter.png');
+}
+
+#contato .twitter:hover {
+   transform: scale(1.2);
 }
 
 #contato .github{
     background-image: url('../imagens/github.png');
 }
 
-#contato .facebook{
+#contato .github:hover {
+    transform: scale(1.2);
+}
+
+#contato .facebook {
     background-image: url('../imagens/facebook.png');
 }
 
-#contato .linkedin{
+#contato .facebook:hover {
+    transform: scale(1.2);
+}
+
+#contato .linkedin {
     background-image: url('../imagens/linkedin.png');
+}
+
+#contato .linkedin:hover {
+    transform: scale(1.2);
 }
 
 footer {
